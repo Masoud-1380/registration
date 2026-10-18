@@ -97,8 +97,7 @@ textarea{min-height:120px;resize:vertical;line-height:2}
 </div>
 <div class="foot">پشتیبانی و ارتباط: <a href="tel:09931828138">09931828138</a></div>
 <script>
-const SHEET_URL="https://script.google.com/macros/s/AKfycbzpJIVUNC-F3UP_sv_XHGl0_fk-yGz-H9vjI1G5LFmaHkeXoILHv78Yyw-ZYeZEFxqv/exec";
-const PROV="آذربایجان شرقی,آذربایجان غربی,اردبیل,اصفهان,البرز,ایلام,بوشهر,تهران,چهارمحال و بختیاری,خراسان جنوبی,خراسان رضوی,خراسان شمالی,خوزستان,زنجان,سمنان,سیستان و بلوچستان,فارس,قزوین,قم,کردستان,کرمان,کرمانشاه,کهگیلویه و بویراحمد,گلستان,گیلان,لرستان,مازندران,مرکزی,هرمزگان,همدان,یزد".split(",");
+const SHEET_URL="https://script.google.com/macros/s/AKfycbzd_Z8gn3fYFtdnjibHQUau5hqspIvuj_hFuIW1yzN0PDuZ7T0yW_HyatJPq1TIMUfJ/exec"آذربایجان شرقی,آذربایجان غربی,اردبیل,اصفهان,البرز,ایلام,بوشهر,تهران,چهارمحال و بختیاری,خراسان جنوبی,خراسان رضوی,خراسان شمالی,خوزستان,زنجان,سمنان,سیستان و بلوچستان,فارس,قزوین,قم,کردستان,کرمان,کرمانشاه,کهگیلویه و بویراحمد,گلستان,گیلان,لرستان,مازندران,مرکزی,هرمزگان,همدان,یزد".split(",");
 const $=id=>document.getElementById(id);
 $("province").innerHTML+=PROV.map(p=>`<option>${p}</option>`).join("");
 // 3D extrusion layers for the map
